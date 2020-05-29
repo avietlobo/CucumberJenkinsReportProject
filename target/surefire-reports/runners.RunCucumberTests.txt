@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunCucumberTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in runners.RunCucumberTests
+initializationError(runners.RunCucumberTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: C:\Users\YESU_ROWINA\eclipse-workspace\new\tau-cucumber-course\src\test\resurces
+

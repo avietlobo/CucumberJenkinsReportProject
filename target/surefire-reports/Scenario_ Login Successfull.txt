@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Login Successfull
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.97 s <<< FAILURE! - in Scenario: Login Successfull
+Feature: Login Functionality  Time elapsed: 0.05 s  <<< ERROR!
+org.picocontainer.PicoCompositionException: Duplicate Keys not allowed. Duplicate for 'class com.tau.steps.Steps'
+

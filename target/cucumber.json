@@ -1,0 +1,81 @@
+[
+  null,
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8017191400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login Successfull 2",
+        "description": "",
+        "id": "login-functionality;login-successfull-2",
+        "after": [
+          {
+            "result": {
+              "duration": 187758699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7373268801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "Steps.i_am_in_the_login_page_of_the_Para_Bank_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2396465601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "Steps.i_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3124647000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "Steps.i_should_be_taken_to_the_Overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "In order to do internet banking\r\nAs a valid Para Bank customer\r\nI want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "LoginParaBank2.feature"
+  }
+]
